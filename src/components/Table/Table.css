@@ -1,0 +1,43 @@
+.selected-info {
+    min-width: 200px;
+    margin: 0;
+}
+
+.selected-info,
+.download-button {
+    font-size: 20px;
+}
+
+.download-button {
+    border: none;
+    background: none;
+}
+
+table tbody tr {
+    cursor: pointer;
+}
+
+table tr.selected {
+    background-color: var(--bs-gray-200);
+}
+
+.path-td {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+}
+
+.available {
+    background-color: greenyellow;
+}
+
+.download-icon {
+    margin-right: 6px;
+}
+
